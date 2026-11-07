@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - Rclone-3060</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 0 20px; color: #333; }
+        h1, h2 { color: #111; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        .box { background: #f9f9f9; border: 1px solid #ddd; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .nav { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>プライバシーポリシー - Rclone-3060</h1>
+    
+    <div class="box">
+        <h2>アプリ名称 / App Name</h2>
+        <p>Rclone-3060</p>
+    </div>
+
+    <div class="box">
+        <h2>データの取扱方針 / Data Handling Policy</h2>
+        <ul>
+            <li><strong>同期対象:</strong> 3060のSharedVault内の許可されたテキストノート（.md/.txt）のみを対象とします。機密ノートや隠しフォルダは除外されます。</li>
+            <li><strong>Google Driveサービスの使用:</strong> GoogleのDriveサービスを保存先として使用し、本人のGoogle Drive内にある指定先フォルダ（SharedVault_Mirror）へ rclone copy により送信します。</li>
+            <li><strong>OAuth権限とスコープ:</strong> Google Drive全体へのOAuth scope=drive権限を要求しますが、アプリの実際の同期対象は指定先フォルダのみです。</li>
+            <li><strong>トークンと認証情報の管理:</strong> アクセストークンおよび更新トークンは3060の rclone.conf にローカル保存され、Google Driveには同期されません。</li>
+            <li><strong>既存データの保護:</strong> Google Drive上の既存データの削除は行いません。</li>
+            <li><strong>利用目的と共有:</strong> 個人利用を目的とし、広告やトラッキングは一切ありません。利用者本人以外の情報共有は意図していません。</li>
+        </ul>
+    </div>
+
+    <div class="box nav">
+        <p><a href="index.html">ホームに戻る</a></p>
+    </div>
+</body>
+</html>
